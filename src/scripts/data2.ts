@@ -168,4 +168,4 @@ let data: TDepartment = {
       deadline: "2023-07-15",
     },
   ],
-};
+}
