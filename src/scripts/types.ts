@@ -19,3 +19,23 @@ export type TEmploee = {
   isClosedProjects: boolean;
   salary: number;
 };
+export type TParams = {
+  width: number;
+  height: number;
+  weight: number;
+};
+export type TDetail = {
+  title: string;
+  params: TParams;
+};
+export type TProject= {
+  name: string;
+  details:TDetail[];
+  mainEngineer: string;
+  deadline: string;
+}
+export type TDepartment = {
+  tech:TProject[];
+  turbo:TProject[];
+  chemical: TProject[];
+}
